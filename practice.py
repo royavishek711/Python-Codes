@@ -59,3 +59,45 @@
 # user=int(input('Enter the number to count: '))
 # cnt=tup.count(user)
 # print(cnt)
+
+#dictionary & sets practice
+# user_dict={
+#     'billy':'cat',
+#     'kutta':'dog',
+#     'sher':'lion',
+#     'aam':'mango',
+#     'gadi':'car'
+# }
+
+# user=input('Naam bataye jiska meaning jaan na h aapko: ')
+# print(user_dict.get(user))
+
+# user_set={}
+# user_set=set()
+# i=0
+# while i<8:
+#     user=input("enter the num: ")
+#     user_set.add(user)
+#     i+=1
+
+# print(user_set)
+
+# user_set={18, '18'}
+# print(user_set)
+
+# s=set()
+# s.add(20)
+# s.add(20.0)
+# s.add('20')
+# print(s)
+
+# d={}
+# i=0
+# while i<5:
+#     name=input('Enter your name: ')
+#     sub=input('Enter your subject: ')
+#     d.update({name:sub})
+#     i+=1
+
+# print(d)
+
