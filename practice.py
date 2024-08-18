@@ -197,8 +197,8 @@
 # elif marks<50:
 #     print('Grade: F')
 
-str=input('enter the post: ')
-if 'harry' in str.lower():
-    print('Yes')
-else:
-    print('no')
+# str=input('enter the post: ')
+# if 'harry' in str.lower():
+#     print('Yes')
+# else:
+#     print('no')
