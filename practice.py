@@ -101,3 +101,104 @@
 
 # print(d)
 
+# conditonal statements greatest number
+# num1=int(input('Enter the first number: '))
+# num2=int(input('Enter the 2nd number: '))
+# num3=int(input('Enter the 3rd number: '))
+# num4=int(input('Enter the 4th number: '))
+
+ 
+# #1st approach
+# if num1>num2 and num1>num3 and num1>num4:
+#     print(num1,'is greater')
+
+# elif num2>num1 and num2>num3 and num2>num4:
+#     print(num2,'is greater')
+
+# elif num3>num1 and num3>num2 and num3>num4:
+#     print(num3,'is greater')
+
+# else:
+#     print(num4,'is greater')
+
+# #2nd approach
+# max_num = max(num1, num2, num3, num4)
+
+# print(max_num, 'is greater')
+
+# # 3rd approach
+# greater=num1
+
+# if num2>greater:
+#     greater=num2
+# elif num3>greater:
+#     greater=num3
+# elif num4>greater:
+#     greater=num4
+
+# print(greater,'is greater')
+
+# marks1=int(input('Enter the marks of math: '))
+# marks2=int(input('Enter the marks of chem: '))
+# marks3=int(input('Enter the marks of phy: '))
+
+# if (marks1+marks2+marks3)>=120 and marks1>=33 and marks2>=33 and marks3>=33:
+#     print('pass')
+# else:
+#     print('fail')
+
+# user=input('Enter the comment: ')
+# if user.__contains__('buy now') or user.__contains__('make a lot of money') or user.__contains__('subscribe this') or user.__contains__('click this'):
+#     print('spam')
+
+# #other approach
+# if 'buy now' in user or 'make a lot of money' in user or 'subscribe this' in user or 'click this' in user:
+#     print('spam')
+
+
+# #other approach
+
+# # List of spam keywords or phrases
+# spam_keywords = ['buy now', 'make a lot of money', 'subscribe this', 'click this']
+
+# # Check if any spam keyword is in the user's comment
+# if any(keyword in user for keyword in spam_keywords):
+#     print('spam')
+
+# user=input('enter the username: ')
+# if len(user)<10:
+#     print('username is not valid')
+# else:
+#     print('username is valid')
+
+# user=input('enter the name: ')
+
+# list=['avi', 'rimon', 'rup', 'priya', 'deb', 'deep']
+
+# if list.__contains__(user):
+#     print('present')
+# else:
+#     print('not present')
+
+
+# marks=int(input('enter the marks: '))
+# if marks<=0 or marks>100:
+#     print('invalid marks')
+# elif marks>=90 and marks<=100:
+#     print('Grade: EX')
+# elif marks>=80 and marks<90:
+#     print('Grade: A')
+# elif marks>=70 and marks<80:
+#     print('Grade: B')
+# elif marks>=60 and marks<70:
+#     print('Grade: C')
+# elif marks>=50 and marks<60:
+#     print('Grade: D')
+# elif marks<50:
+#     print('Grade: F')
+
+str=input('enter the post: ')
+if 'harry' in str.lower():
+    print('Yes')
+else:
+    print('no')
